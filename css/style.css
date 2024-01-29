@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;1,800&display=swap');
+
 @import url(header.css);
 @import url(footer.css);
 @import url(noticias.css);
+
 
 :root{
   /* Cores dos backgrounds: */
@@ -101,6 +103,8 @@ nav{
   align-items: center;
 }
 
+
+
 .submit input{ 
   width: 60%;
   padding: 10px;
@@ -124,7 +128,7 @@ nav{
   border-radius: 0 10px 10px 0;
   background-color: var(--background-body);
   margin-top: 15px;
-  padding: 6px;
+  padding: 11px;
   
 }
 
@@ -143,9 +147,12 @@ nav{
   margin-top: 25px;
 }
 
-.destaques img{
+.destaques-banner{
+  max-width: 100%;
   width: 100%;
-  margin-top: 15px;
+  height: 322px;
+  object-fit: cover;
+  
 }
 
 /* fim estilização destaques */

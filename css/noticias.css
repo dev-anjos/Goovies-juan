@@ -21,6 +21,8 @@
 .noticias_destaques{
     width: 100%;
     height: 500px;
+    background-size: 100%;
+    background-position: center;
     display: grid;
     grid-template-areas: 
     "noticias1 noticias2"
@@ -31,27 +33,34 @@
 }
 
 .noticias_card-1{
+    
     display: flex;
     align-items: end;
     grid-area: noticias1; 
+    
     background: url("../images/cards/Rectangle_azul.svg") no-repeat;
     background-size: cover;
+    
+  
     border-radius: 0px 0px 10px 10px;
+    
 }
     
 .noticias_card-2{
     display: flex;
     align-items: end;
     grid-area: noticias2;
-    background: url("../images/cards/Rectangle_azul.svg") no-repeat;
+    background: url("../images/cards/Rectangle_menor.svg") no-repeat;
+    
     border-radius: 0px 0px 10px 10px;
-   
+    
 }
 .noticias_card-3{
     display: flex;
     align-items: end;
     grid-area: noticias3;
-    background: url("../images/cards/Rectangle_azul.svg") no-repeat;
+    background: url("../images/cards/Rectangle_menor.svg") no-repeat;
+    
     border-radius: 0px 0px 10px 10px;
 }
 
