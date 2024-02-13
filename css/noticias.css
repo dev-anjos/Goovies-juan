@@ -38,7 +38,7 @@
     align-items: end;
     grid-area: noticias1; 
     
-    background: url("../images/cards/Rectangle_azul.svg") no-repeat;
+    background: url("../images/cards/noticias/saltburn.jfif") no-repeat;
     background-size: cover;
     
   
@@ -76,25 +76,19 @@
 
 /*Fim parte destaques*/
 
-.container_recentes{
-    display: flex;
-    justify-content: space-around;
+/*Mais Recentes*/
+
+.mais_recentes{
     width: 100%;
-   margin: 40px 0px;
-}
-.recentes_card{
-    margin: 20px;
-}
-.recentes_card img{
-    border-radius: 10px;
+
+    
 }
 
-.texto_noticia-recentes{
-    height: 25%;
-    background-color: var(--color-text);
-    border-radius: 0px 0px 10px 10px;
-}
-.texto_noticia-recentes a{
-    color: var(--color-text-nav);
+.recentes_card{
     
+}
+
+.container_recentes{
+    display: flex;
+    flex-wrap: wrap;
 }
